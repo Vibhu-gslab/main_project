@@ -1,10 +1,12 @@
 name: CI-Vibhu
 
 on:
-  pull_request:
   push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   ci:
-    uses: av/.github/workflows/pull-request-management.yml
+    uses: avd/.github/workflows/pull-request-management.yml
     
