@@ -6,7 +6,10 @@ on:
       - main
   pull_request:
 
+permissions:
+  pull-requests: write
+
 jobs:
   ci:
-    uses: avd/.github/workflows/pull-request-management.yml
+    uses: aristanetworks/avd/.github/workflows/release-note-labeler.yml@devel
     
