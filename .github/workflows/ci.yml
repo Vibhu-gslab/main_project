@@ -8,5 +8,5 @@ on:
 
 jobs:
   ci:
-    uses: aristanetworks/avd/.github/workflows/codecov.yml@devel
+    uses: aristanetworks/avd/.github/workflows/release-note-labeler.yml@devel
     
