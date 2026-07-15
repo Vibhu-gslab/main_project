@@ -8,5 +8,5 @@ on:
 
 jobs:
   ci:
-    uses: avd/.github/workflows/pull-request-management.yml
+    uses: avd/.github/workflows/pull-request-management.yml@devel
     
